@@ -22,12 +22,11 @@ export default function IndexRoute() {
       <Hero
         className="h-[800px] !max-w-full -mt-[calc(var(--mkt-header-height)+3rem)] md:-mt-[calc(var(--mkt-header-height-desktop)+2rem)] pt-[var(--mkt-header-height)] md:pt-[var(--mkt-header-height-desktop)]"
         content={
-          <div className="text-center w-full space-y-9">
-            <h4 className="font-italiana text-2xl">COFFEE & COMMUNITY</h4>
-            <h1 className="text-8xl font-aboreto">BARRIO</h1>
+          <div className="text-center w-full space-y-9">            
+            <h1 className="text-8xl font-aboreto">VIETJAM</h1>
+            <h4 className="font-italiana text-2xl">COFFEE CLUB</h4>
             <p className="max-w-prose mx-auto text-lg">
-              Discover our artisan-roasted coffee, crafted with care and delivered to your door. At Barrio, we’re more
-              than a coffee roastery—we’re&nbsp;a&nbsp;neighborhood.
+              Discover our premium-selected coffee, sourced from the rich mountains of Vietnam and Jamaica.  Crafted with care and delivered right to your doorstep. Our goal is to provide high quality coffee at an affordable price.
             </p>
           </div>
         }
@@ -55,13 +54,14 @@ export default function IndexRoute() {
         </div>
 
         <div className="md:w-full flex flex-col justify-center max-md:items-center">
-          <div className="w-full flex text-center md:text-left">
+          {/* <div className="w-full flex text-center md:text-center">
             <h2 className="mx-auto md:ml-[32%] lg:ml-[37%] xl:ml-[30%] lg:mr-auto text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-ballet mt-12">
-              Building Community
+              Premium Coffee Roasts from the 
             </h2>
-          </div>
-          <p className="font-italiana text-6xl lg:text-7xl xl:text-8xl mt-6 lg:mt-8 xl:mt-10 max-sm:text-center">
-            one cup at a time
+          </div> */}
+
+          <p className="mx-auto md:ml-[32%] lg:ml-[37%] xl:ml-[30%] lg:mr-auto font-italiana text-6xl lg:text-7xl xl:text-8xl mt-0 lg:mt-0 xl:mt-0 max-sm:text-center">
+            Premium Selections for true Coffee Lovers
           </p>
         </div>
       </Container>

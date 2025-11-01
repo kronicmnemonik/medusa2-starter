@@ -85,10 +85,10 @@ export default function IndexRoute() {
                 Our Story
               </h1>
               <p className="mx-auto text-md md:text-2xl !leading-normal">
-                At Barrio Coffee Roastery, we’re more than just a coffee business—we’re a community. Inspired by the
-                essence of a "barrio," a close-knit neighborhood where people gather, share, and connect, we aim to
-                bring that sense of belonging and warmth to every cup of coffee we roast. From the moment we started,
-                our passion has been to create exceptional coffee that{' '}
+                A genuine love story of the East meets West.  After several coffee dates, and trying various roasts, we decided to open an online cafe to spread the love. Inspired by the
+                culture of Vietnam and Jamaica, where people are warm and friendly, we promote the idea of REAL well being and getting to know one another, sharing, caring, and connecting.
+                We aim to bring that sense of belonging and warmth to every bag of coffee delivered to your door. From the moment we started,
+                our passion has been to share high quality coffee that{' '}
                 <span className="font-bold">brings people together, one sip at a time.</span>
               </p>
             </div>
@@ -100,7 +100,7 @@ export default function IndexRoute() {
               url: '/products',
             },
             {
-              label: 'Join the Barrio Community',
+              label: 'Join the VietJam Community',
               url: '#',
             },
           ]}
